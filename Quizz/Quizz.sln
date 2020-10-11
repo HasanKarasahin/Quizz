@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz.API", "Quizz.API\Quizz.API.csproj", "{7E6772FA-1A3C-4CB2-9F1E-95716B65C24F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizz.API", "Quizz.API\Quizz.API.csproj", "{7E6772FA-1A3C-4CB2-9F1E-95716B65C24F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz.Entities", "Quizz.Entities\Quizz.Entities.csproj", "{CDA96DAD-76FA-4B5A-B909-596D44529F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizz.Entities", "Quizz.Entities\Quizz.Entities.csproj", "{CDA96DAD-76FA-4B5A-B909-596D44529F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz.DataAccess", "Quizz.DataAccess\Quizz.DataAccess.csproj", "{71AE5C8E-E2CA-4A1D-B695-191E812F9253}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CDA96DAD-76FA-4B5A-B909-596D44529F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDA96DAD-76FA-4B5A-B909-596D44529F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDA96DAD-76FA-4B5A-B909-596D44529F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AE5C8E-E2CA-4A1D-B695-191E812F9253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AE5C8E-E2CA-4A1D-B695-191E812F9253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AE5C8E-E2CA-4A1D-B695-191E812F9253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AE5C8E-E2CA-4A1D-B695-191E812F9253}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

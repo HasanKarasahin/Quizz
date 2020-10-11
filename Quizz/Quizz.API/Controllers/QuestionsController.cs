@@ -12,7 +12,7 @@ namespace Quizz.API.Controllers
     {
         [HttpGet]
         public string Get()
-        {
+        {   
             return "Merhaba Dünya";
         }
     }

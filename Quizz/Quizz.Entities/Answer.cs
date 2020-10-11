@@ -11,9 +11,9 @@ namespace Quizz.Entities
         public int question_id { get; set; }
 
         [StringLength(50)]
-        public string name { get; set; }
+        public string answer_name { get; set; }
 
         [StringLength(2)]
-        public string title { get; set; }
+        public string answer_title { get; set; }
     }
 }

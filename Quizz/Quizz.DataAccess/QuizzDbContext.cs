@@ -11,9 +11,11 @@ namespace Quizz.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlite("Filename=./QuizzDb.sqlite");
+            optionsBuilder.UseSqlite("Filename=../Quizz.DataAccess/QuizzDb.sqlite");
         }
 
         public DbSet<Answer> Answers { get; set; }
+        public DbSet<Question> Questions { get; set; }
+        public DbSet<Exam> Exams { get; set; }
     }
 }

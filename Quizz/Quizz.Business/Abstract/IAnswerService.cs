@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Quizz.Business
 {
-    public interface IQuestionService
+    public interface IAnswerService
     {
         List<Answer> GetAllAnswers();
     }

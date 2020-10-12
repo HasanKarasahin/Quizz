@@ -2,6 +2,7 @@
 using Quizz.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Quizz.DataAccess.ConCrete
 {
@@ -9,7 +10,10 @@ namespace Quizz.DataAccess.ConCrete
     {
         public List<Answer> GetAllAnswers()
         {
-            throw new NotImplementedException();
+            using (var quizzDbContext = new QuizzDbContext())
+            {
+                return quizzDbContext.Answers.ToList();
+            }
         }
     }
 }

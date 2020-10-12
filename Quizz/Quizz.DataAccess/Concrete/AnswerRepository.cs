@@ -2,13 +2,12 @@
 using Quizz.Entities;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Quizz.DataAccess.ConCrete
 {
-    public class QuestionRepository : IQuestionRepository
+    public class AnswerRepository : IAnswerRepository
     {
-        public List<Answer> GetAllQuestion()
+        public List<Answer> GetAllAnswers()
         {
             throw new NotImplementedException();
         }

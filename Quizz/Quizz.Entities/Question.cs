@@ -12,5 +12,8 @@ namespace Quizz.Entities
 
         [StringLength(50)]
         public string question_name { get; set; }
+
+
+        public Exam Exam { get; set; }
     }
 }

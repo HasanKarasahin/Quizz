@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Quizz.Business;
 using Quizz.DataAccess.Abstract;
-using Quizz.DataAccess.ConCrete;
+using Quizz.DataAccess.Concrete;
 
 namespace Quizz.API
 {
@@ -22,6 +22,9 @@ namespace Quizz.API
             services.AddControllers();
             services.AddSingleton<IAnswerService, AnswerManager>();
             services.AddSingleton<IAnswerRepository, AnswerRepository>();
+
+            services.AddSingleton<IQuestionService, QuestionManager>();
+            services.AddSingleton<IQuestionRepository, QuestionRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

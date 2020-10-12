@@ -5,13 +5,13 @@ using System.Linq;
 
 namespace Quizz.DataAccess.Concrete
 {
-    public class AnswerRepository : IAnswerRepository
+    public class ExamRepository : IExamRepository
     {
-        public List<Answer> GetAllAnswers()
+        public List<Exam> GetAllExams()
         {
             using (var quizzDbContext = new QuizzDbContext())
             {
-                return quizzDbContext.Answers.ToList();
+                return quizzDbContext.Exams.ToList();
             }
         }
     }

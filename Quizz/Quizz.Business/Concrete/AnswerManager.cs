@@ -1,6 +1,5 @@
 ﻿using Quizz.DataAccess.Abstract;
 using Quizz.Entities;
-using System;
 using System.Collections.Generic;
 
 namespace Quizz.Business

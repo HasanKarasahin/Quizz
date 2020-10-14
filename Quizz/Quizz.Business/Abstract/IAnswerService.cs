@@ -8,5 +8,6 @@ namespace Quizz.Business
     public interface IAnswerService
     {
         List<Answer> GetAllAnswers();
+        int CreateAnswer(Answer answer);
     }
 }

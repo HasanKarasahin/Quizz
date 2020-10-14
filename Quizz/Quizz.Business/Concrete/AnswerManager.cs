@@ -13,6 +13,11 @@ namespace Quizz.Business
             _answerRepository = answerRepository;
         }
 
+        public int CreateAnswer(Answer answer)
+        {
+            return _answerRepository.CreateAnswer(answer);
+        }
+
         public List<Answer> GetAllAnswers()
         {
             return _answerRepository.GetAllAnswers();

@@ -1,0 +1,371 @@
+﻿@{
+    ViewData["Title"] = "AddExamPage";
+}
+
+
+
+<form asp-controller="Home" asp-action="AddExam" method="post">
+
+
+    <div class="form-group">
+        <label for="inputAddress2">Sınav Başlığı</label>
+        <input type="text" name="exam_name" class="form-control" id="inputAddress2">
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <div class="form-group">
+                            <label for="inputAddress">Soru 1</label>
+                            <input type="text" class="form-control" id="inputAddress" name="soru1_soru">
+                        </div>
+                    </h5>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 1 - A Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru1_cevap_a">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 1 - B Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru1_cevap_b">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 1 - C Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru1_cevap_c">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 1 - D Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru1_cevap_d">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 1 - E Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru1_cevap_e">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputState">Doğru Şık</label>
+                                <select id="inputState" class="form-control" name="soru1_dogru_sık">
+                                    <option selected value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <div class="form-group">
+                            <label for="inputAddress">Soru 2</label>
+                            <input type="text" class="form-control" id="inputAddress" name="soru2_soru">
+                        </div>
+                    </h5>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 2 - A Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru2_cevap_a">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 2 - B Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru2_cevap_b">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 2 - C Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru2_cevap_c">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 2 - D Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru2_cevap_d">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 2 - E Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru2_cevap_e">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputState">Doğru Şık</label>
+                                <select id="inputState" class="form-control" name="soru2_dogru_sık">
+                                    <option selected value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <div class="form-group">
+                            <label for="inputAddress">Soru 3</label>
+                            <input type="text" class="form-control" id="inputAddress" name="soru3_soru">
+                        </div>
+                    </h5>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 3 - A Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru3_cevap_a">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 3 - B Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru3_cevap_b">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 3 - C Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru3_cevap_c">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 3 - D Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru3_cevap_d">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 3 - E Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru3_cevap_e">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputState">Doğru Şık</label>
+                                <select id="inputState" class="form-control" name="soru3_dogru_sık">
+                                    <option selected value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <div class="form-group">
+                            <label for="inputAddress">Soru 4</label>
+                            <input type="text" class="form-control" id="inputAddress" name="soru4_soru">
+                        </div>
+                    </h5>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 4 - A Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru4_cevap_a">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 4 - B Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru4_cevap_b">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 4 - C Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru4_cevap_c">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 4 - D Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru4_cevap_d">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 4 - E Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru4_cevap_e">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputState">Doğru Şık</label>
+                                <select id="inputState" class="form-control" name="soru4_dogru_sık">
+                                    <option selected value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <div class="form-group">
+                            <label for="inputAddress">Soru 5</label>
+                            <input type="text" class="form-control" id="inputAddress" name="soru5_soru">
+                        </div>
+                    </h5>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 5 - A Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru5_cevap_a">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 5 - B Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru5_cevap_b">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 5 - C Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru5_cevap_c">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 5 - D Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" name="soru5_cevap_d">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+
+                            <div class="form-group">
+                                <label for="defaultRegisterFormFirstName">Soru 5 - E Şıkkı</label>
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" name="soru5_cevap_e">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputState">Doğru Şık</label>
+                                <select id="inputState" class="form-control" name="soru5_dogru_sık">
+                                    <option selected value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="submit" />
+</form>

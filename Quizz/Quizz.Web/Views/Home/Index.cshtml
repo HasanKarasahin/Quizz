@@ -25,13 +25,15 @@
                     @{
                         @row
                         row += 1;
-                     }
+                    }
                 </th>
                 <td>@item.exam_name</td>
                 <td>
-                    <a class="nav-link text-dark btn" asp-area="" asp-controller="Home" asp-action="Privacy"><i class="fa fa-pencil-square-o"></i></a>
+                    <a class="nav-link text-dark btn" asp-area="" asp-controller="Home" asp-action="EditExam" asp-route-id="@item.id"><i class="fa fa-pencil-square-o"></i></a>
                 </td>
-                <td><button class="btn"><i class="fa fa-trash"></i></button></td>
+                <td>
+                    <a class="nav-link text-dark btn" asp-area="" asp-controller="Home" asp-action="DeleteExam" asp-route-id="@item.id"><i class="fa fa-trash"></i></a>
+                </td>
             </tr>
     }
         </tbody>
